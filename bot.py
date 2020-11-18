@@ -5,7 +5,7 @@ from pyrogram import Client, filters
 API_ID = environ.get('API_ID')
 API_HASH = environ.get('API_HASH')
 BOT_TOKEN = environ.get('BOT_TOKEN')
-API_KEY = environ.get('API_KEY', '7c7626d340acbe30d761b3d49b97246773f82896')
+API_KEY = environ.get('API_KEY', '19ea9a52-a4ec-4a00-b550-a55e6dc3de35')
 
 bot = Client('gplink bot',
              api_id=API_ID,
